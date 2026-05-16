@@ -46,6 +46,8 @@ spectrogram_examples/
 
 # Model checkpoints
 *.tar
+!pretrained/
+!pretrained/best_model_120.tar
 *.pt
 *.pth
 *.ckpt
