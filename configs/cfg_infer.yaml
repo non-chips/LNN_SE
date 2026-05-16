@@ -1,0 +1,11 @@
+test_dataset:
+  noisy_dir: D:/LNN_SE/Datasets/noisy_testset_wav
+  clean_dir: D:/LNN_SE/Datasets/clean_testset_wav
+  scp: D:/LNN_SE/Datasets/test.scp
+
+network:
+  exp_path: D:/LNN_SE/exp_lnn_2026-05-11-15h26m
+  config: ${network.exp_path}/config.yaml
+  ckpt_name: best_model_120
+  checkpoint: ${network.exp_path}/checkpoints/${network.ckpt_name}.tar
+  enh_folder: ${network.exp_path}/${network.ckpt_name}

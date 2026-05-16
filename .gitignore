@@ -1,0 +1,76 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local datasets and audio files
+Datasets/**
+!Datasets/
+!Datasets/**/
+!Datasets/**/.gitkeep
+*.wav
+*.flac
+*.mp3
+*.aac
+*.m4a
+
+# Training / inference / evaluation outputs
+exp*/
+exp_lnn*/
+runs/
+logs/
+wandb/
+lightning_logs/
+checkpoints/
+best_model*/
+enhanced/
+noisy_baseline/
+scoring*/
+spectrogram_examples/
+
+# Model checkpoints
+*.tar
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated result files
+inf.scp
+ref.scp
+rtf.csv
+rtf_summary.txt
+selected_examples.txt
+pesq_low_mid_high_spectrograms.png
+
+# TensorBoard
+*.tfevents*
+events.out.tfevents*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Not required .py .md and .txt
+make_validation.py
+dataset_duration_stats.py
+speechnote.md
+procedure.txt
