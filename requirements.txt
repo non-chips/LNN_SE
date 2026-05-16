@@ -1,0 +1,24 @@
+# Core deep learning runtime
+# If you need a specific CUDA build, install torch/torchaudio from https://pytorch.org first.
+torch
+torchaudio
+
+# Config and utilities
+omegaconf
+tqdm
+joblib
+p-tqdm
+
+# Audio processing
+numpy
+scipy
+librosa
+soundfile
+
+# Evaluation metrics
+pesq
+pystoi
+
+# Visualization and logging
+matplotlib
+tensorboard
